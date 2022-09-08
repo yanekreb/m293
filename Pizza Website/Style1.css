@@ -1,0 +1,53 @@
+body {
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: lightblue;
+    border: solid;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    border: solid;
+    background-color: lightblue;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.mittig {
+    display: flex;
+    justify-content: center;
+}
+
+.abstand {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pizzamenu {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.schriftgrösse {
+    font-size: 15px;
+}
+
+.schriftgrösse1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.warenkorb {
+    display: flex;
+    justify-content: space-between;
+}

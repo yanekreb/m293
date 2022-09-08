@@ -1,0 +1,7 @@
+h1::before {
+    content: url("../images/apple.jpg");
+}
+
+h2::after {
+    content: url("../images/sky.JPG");
+}

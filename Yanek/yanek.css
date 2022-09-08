@@ -1,0 +1,19 @@
+.title {
+    color:aquamarine;
+    font: size 300px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.border {
+    border-style:dotted;
+    border-radius: 50%;
+}
+.undertitle {
+    color: rgb(0, 183, 255);
+}
+.border1 {
+    background-color: rgb(13, 223, 48);
+}
+.text {
+    text-align: center;
+}
