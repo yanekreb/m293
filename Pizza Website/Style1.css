@@ -51,3 +51,20 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+.rechtsbündig {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+}
+
+.rechtsbündig1 {
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+.margin {
+    margin-right: 15px;
+}
