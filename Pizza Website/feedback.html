@@ -20,56 +20,70 @@
 
     <div>
 
-        <h1 class="mittig">Tell us what you think</h1>
+        <h1>Tell us what you think</h1>
 
         <div class="mittig">
-            <form>
+            <form action="danke.html">
 
-                <div class="warenkorb">
-                    <div class="margin">
-                        <label for="frage1">How did you like our Pizza?</label>
+                <div class="alles">
+                    <div class="frage">
+                        <label for="taste1">How did you like our Pizza?</label>
                     </div>
-                    <div class="warenkorb">
-                        <label for="a1">awesome </label>
-                        <input type="radio" name="a" value="awesome">
-                        <label for="a2">good</label>
-                        <input type="radio" name="a" value="good">
-                        <label for="a3">okey</label>
-                        <input type="radio" name="a" value="okey">
-                        <label for="a4">poor</label>
-                        <input type="radio" name="a" value="poor">
-                    </div>
-                </div>
-                <br>
-
-                <div class="warenkorb">
-                    <label for="frage2">what do you think about our prize?</label>
-                    <div class="warenkorb">
-                        <label for="a12">fair</label>
-                        <input type="radio" name="a1" value="fair">
-                        <label for="a13">okey</label>
-                        <input type="radio" name="a1" value="okey">
-                        <label for="a14">expensive</label>
-                        <input type="radio" name="a1" value="expensive">
+                    <div class="antwort">
+                        <label for="taste1">awesome </label>
+                        <input type="radio" id="taste1" name="taste" value="awesome" required>
+                        <label for="taste2">good</label>
+                        <input type="radio" id="taste2" name="taste" value="good">
+                        <label for="taste3">okey</label>
+                        <input type="radio" id="taste3" name="taste" value="okey">
+                        <label for="taste4">poor</label>
+                        <input type="radio" id="taste4" name="taste" value="poor">
                     </div>
                 </div>
                 <br>
 
-                <div class="rechtsbündig1">
-                    <label for="frage3">your name?</label>
-                    <input type="text" name="frage3" value="">
+                <div class="alles">
+                    <div class="frage">
+                        <label for="prize1">what do you think about our prize?</label>
+                    </div>
+                    <div class="antwort">
+                        <label for="prize1">fair</label>
+                        <input type="radio" id="prize1" name="prize" value="fair" required>
+                        <label for="prize2">okey</label>
+                        <input type="radio" id="prize2" name="prize" value="okey">
+                        <label for="prize3">expensive</label>
+                        <input type="radio" id="prize3" name="prize" value="expensive">
+                    </div>
                 </div>
                 <br>
 
-                <div class="rechtsbündig1">
-                    <label for="frage4">your email?</label>
-                    <input type="email" name="frage4" value="">
+                <div class="alles">
+                    <div class="frage">
+                        <label for="name">your name?</label>
+                    </div>
+                    <div class="antwort">
+                        <textarea id="name" name="name" cols="40" rows="1" required></textarea>
+                    </div>
                 </div>
                 <br>
 
-                <div class="rechtsbündig1">
-                    <label for="frage5">What can we do better?</label>
-                    <textarea name="frage5" cols="20" rows="7"></textarea>
+                <div class="alles">
+                    <div class="frage">
+                        <label for="email">your email?</label>
+                    </div>
+                    <div class="antwort">
+                        <textarea id="email" name="email" cols="40" rows="1" required></textarea>
+                    </div>
+                </div>
+                <br>
+
+                <div class="alles">
+                    <div class="frage">
+                        <label for="statement">What can we do better?</label>
+                    </div>
+                    <div class="antwort">
+                        <textarea id="statement" name="statement" cols="40" rows="7"></textarea>
+                    </div>
                 </div>
 
                 <br>
