@@ -18,9 +18,15 @@ footer {
     justify-content: space-between;
     padding: 10px;
     margin-top: 20px;
+    align-items: center;
 }
 
-.mittig {
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.bild {
     display: flex;
     justify-content: center;
 }
@@ -38,18 +44,13 @@ footer {
 }
 
 .schriftgrösse {
-    font-size: 15px;
+    font-size: 9px;
 }
 
 .schriftgrösse1 {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 15px;
-}
-
-.warenkorb {
-    display: flex;
-    justify-content: space-between;
 }
 
 .rechtsbündig {
@@ -65,6 +66,52 @@ footer {
     justify-content: space-between;
 }
 
-.margin {
-    margin-right: 15px;
+.mittig {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+}
+
+.alles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.frage {
+    display: flex;
+    justify-content: flex-end;
+    width: 250px;
+}
+
+.antwort {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.warenkorb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }

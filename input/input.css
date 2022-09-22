@@ -1,0 +1,45 @@
+body{
+
+    margin: 0px;
+
+}
+
+body, div, p, span{
+
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.pizzas {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+
+    column-gap: 5px;
+
+    row-gap: 5px;
+
+}
+
+.pizzas div {
+
+    border:1px solid black;
+
+    width: 500px;
+
+    height: 200px;
+
+}
+
+@media screen and (max-width:1300px) {
+
+    .pizzas div {
+
+        width: 300px;
+
+    }
+
+}
